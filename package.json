@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-sec-regulations",
+  "version": "0.1.0",
+  "description": "SEC Regulations MCP — US securities regulations (17 CFR).",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "sec-regulations"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-sec-regulations"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

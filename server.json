@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/sec-regulations",
+  "title": "Sec Regulations",
+  "description": "SEC Regulations MCP — US securities regulations (17 CFR).",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/sec-regulations",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-sec-regulations",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/sec-regulations/mcp"
+    }
+  ]
+}
