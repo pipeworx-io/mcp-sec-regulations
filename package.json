@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-sec-regulations",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SEC Regulations MCP — US securities regulations (17 CFR).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-sec-regulations": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "sec-regulations"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-sec-regulations"
+    "url": "git+https://github.com/pipeworx-io/mcp-sec-regulations.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-4b637346d18fdc2ed9fbdd5611cfca17cb6f0eceb16a70ee3f9437e3f39da830",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }
