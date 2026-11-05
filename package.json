@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-sec-regulations",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "SEC Regulations MCP — US securities regulations (17 CFR).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "sec-regulations",
     "gatewaySlug": "sec-regulations",
-    "sourceHash": "v1-c773759c1535410ab497df5a75bb5454863b45f8c77d02ac7cb7e6663036adb9",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-527d889965b8b1ec1911957608b3e8a2e53c045eb4b9932cca284046ab209db8",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
